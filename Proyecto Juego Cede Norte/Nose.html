@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola</title>
+</head>
+<body>
+    
+    <p>Seleccione sus nombres:</p>
+
+    <section id="DatosPersonales">
+        <input type="radio" name="nombre" id="NombreUno">
+        <label for="NombreUno">Vanesa Restrepo</label>
+
+        <input type="radio" name="nombre" id="NombreDos">
+        <label for="NombreDos">Omar Agudelo</label>
+
+        <input type="radio" name="nombre" id="NombreTres">
+        <label for="NombreTres">Mary Luz</label>
+
+        <button id="seleccionarNombre">Seleccionar Nombre</button>
+    </section>
+
+    <p>Selecciona el tipo de documento</p>
+    <section id="DatosDocumentos">
+        <input type="radio" id="Cedula">
+        <label for="">Cedula</label>
+
+        <input type="radio" id="Nid">
+        <label for="">Nid</label>
+
+        <input type="radio" id="Pasaporte">
+        <label for="">Pasaporte</label>
+
+        <button id="SeleccionarDocumento">Seleccionar Documento</button>
+    </section>
+
+    <section>
+        <input type="radio">
+        <label for="">Colombia</label>
+
+        <input type="radio">
+        <label for="">España</label>
+
+        <input type="radio">
+        <label for="">Italia</label>
+
+        <button id="SeleccionarPais">Seleccionar Pais</button>
+    </section>
+
+    <p>El nombre seleccionado es:  <span id="spanNombre"></span>, su tipo de documento es: <span id="TipoDocumento"></span> y el pais de residencia es: <span></span></p>
+<script src="/Nose.js"></script>
+</body>
+</html>
